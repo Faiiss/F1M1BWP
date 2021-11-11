@@ -62,7 +62,6 @@ while spelletje == True:
         print("Inleiding,")
         print("")
         print("Dit verhaal werkt iets anders dan de meeste verhalen, in de zin dat jij hierin de hoofdrol speelt.")
-        print("Hoe je door het verhaal heenwerkt valt te vergelijken met een quest op RuneScape.")
         print("(druk op enter om verder te gaan)")
         Druk_op_enter_1 = input(">>>")
         print("")
@@ -85,7 +84,7 @@ while spelletje == True:
             stukje_1 = True
             stukje_intro = False
         
-        elif Antwoord_1 == "B":
+        elif Antwoord_1 == "B":  
             stukje_2 = True
             stukje_intro = False
 
@@ -254,8 +253,6 @@ while spelletje == True:
         print("Je geeft het pakje")
         print("Hij geeft je geld")
         print("")
-        print("  A. Je kiest ervoor om jezelf eerst te laten smokkelen en daarna je moeder en zusjes")
-        print("  B. Je kiest er niet voor om gesmokkeld te worden en jullie gaan te voet naar de grens")
         stukje_6 = True
         stukje_8 = False
 #--------------------------------------------------------
@@ -406,8 +403,8 @@ while spelletje == True:
         print("")
         print("Je loopt door je wijk er stopt een busje naast je")
         print("Er springen mannen er uit die gemaskerd zijn en je word ontvoerd")
-            einde_3 = True
-            stukje_16 = False
+        einde_3 = True
+        stukje_16 = False
 
 
     #stukje_17
@@ -484,8 +481,8 @@ while spelletje == True:
         print("Je wilt naar buiten gaan maar ze zijn al binnen")
         print("Je word aangehouden bij de wietplantage")
         print("")
-            einde_6 = True
-            stukje_21 = False
+        einde_6 = True
+        stukje_21 = False
 
 
     #einde1
@@ -518,7 +515,9 @@ while spelletje == True:
         print("Spijker: Je hebt hem geript toch of niet?")
         print("Je zegt: Ja, omdat hij me pa vorige keer had uitscholden voor homo")
         print("Spijker: Jou vader boeit mij niet oke")
-        print("Spijker: loopt weg")
+        print("")
+        print("Spijker loopt weg")
+        print("")
         print("Je zegt nee nee eyy!")
         print("2 mannen lopen op je af met een pistool")
         print("Hij schreeuwd op je knieën")
@@ -614,37 +613,36 @@ while spelletje == True:
             continue
 
         while einde_6 == True:
-        print("Je bent in de rechtzaal")
-        print("Je ziet Spijker vrij in de tribune hij lacht naar je")
-        print("Rechter: Je word veroordeeld tot illigaale drugs verkoop")
-        print("Rechter: Je krijgt 5 jaar celstraf")
+            print("Je bent in de rechtzaal")
+            print("Je ziet Spijker vrij in de tribune hij lacht naar je")
+            print("Rechter: Je word veroordeeld tot illigaale drugs verkoop")
+            print("Rechter: Je krijgt 5 jaar celstraf")
 
-        print("  A. Ja! ik wil graag nog een keer spelen!")
-        print("  B. Nee. ik hoef niet nog een keer te spelen.")
-        Antwoord_E4 = input(">>>")
-        if Antwoord_E4 == "A":
-            inleiding = True
-            einde_5 = False
-        elif Antwoord_E4 == "B":
-            print("Bedankt dat je dit spel hebt gespeeld!")
-            print("Tot ziens!")
-            spelletje = False
-            einde_6 = False
-        else:
-            print("Je moet wel goed antwoorden! Let goed op de hoofdletter")
-            print("")
-            continue
+            print("  A. Ja! ik wil graag nog een keer spelen!")
+            print("  B. Nee. ik hoef niet nog een keer te spelen.")
+            Antwoord_E4 = input(">>>")
+            if Antwoord_E4 == "A":
+                inleiding = True
+                einde_5 = False
+            elif Antwoord_E4 == "B":
+                print("Bedankt dat je dit spel hebt gespeeld!")
+                print("Tot ziens!")
+                spelletje = False
+                einde_6 = False
+            else:
+                print("Je moet wel goed antwoorden! Let goed op de hoofdletter")
+                print("")
+                continue
 
         while einde_7 == True:
-        print("Je besluit om een nieuwe start te nemen")
-        print("Je stapt uit de onderwereld")
-        print("Je begint met boxen")
-        print("En je word prof boxer")
-        print("Einde!")
-
-        print("  A. Ja! ik wil graag nog een keer spelen!")
-        print("  B. Nee. ik hoef niet nog een keer te spelen.")
-        Antwoord_E4 = input(">>>")
+            print("Je besluit om een nieuwe start te nemen")
+            print("Je stapt uit de onderwereld")
+            print("Je begint met boxen")
+            print("En je word prof boxer")
+            print("Einde!")
+            print("  A. Ja! ik wil graag nog een keer spelen!")
+            print("  B. Nee. ik hoef niet nog een keer te spelen.")
+            Antwoord_E4 = input(">>>")
         if Antwoord_E4 == "A":
             inleiding = True
             einde_7 = False
